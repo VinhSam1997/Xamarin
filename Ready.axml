@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/backgroundimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
+    <EditText
+        android:hint="Enter your name"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@color/material_grey_300"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/textname"
+    />
+
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:text="OK"
+        android:textSize="40dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/OK"
+    />
+</RelativeLayout>

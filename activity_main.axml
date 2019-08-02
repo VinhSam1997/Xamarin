@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:background="@drawable/backgroundimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_grey_100"
+        android:text="Fruit Matching"
+        android:textColor="@android:color/holo_green_light"
+        
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+    />
+
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:text="play"
+        android:textSize="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/play"
+    />
+
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:text="Score Board"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/score"
+    />
+
+    
+</RelativeLayout>
