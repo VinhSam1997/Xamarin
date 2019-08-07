@@ -45,6 +45,18 @@
         android:id="@+id/score"
     />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/material_grey_600"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:text="Time: "
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="490dp"
+        android:id="@+id/time"
+    />
+
     <ImageButton
         android:background="@drawable/hiddenbox"
         android:layout_width="80dp"
